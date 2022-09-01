@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 40px
+}
+
+.first-div::after {
+  border-radius: 50%/100px 100px 0 0;
+}
+
+.circle-css {
+  /* position: absolute; */
+  /* top: 50%; */
+  left: 50%;
+  /* transform: translate(50%, 50%); */
+  height: 100px;
+  width: 200px;
+  border-bottom-left-radius: 150px;
+  border-bottom-right-radius: 150px;
+  border-top-left-radius: -50px;
+  border-top: 0;
+}
+
+.first-div {
+  width: 20%;
+  height: 300px;
+  border: 1px solid orange;
+  position: relative;
+  border-top: none;
+  background: linear-gradient(180deg, rgba(98, 106, 136, 0.1) 0%, rgba(46, 49, 73, 0.1) 107.43%);
+  backdrop-filter: blur(100px);
+}
+
+
+.second-div  {
+  width: 35%;
+  height: 50px;
+  position: absolute;
+  left: 50%;
+  top: -1px;
+  transform: translateX(-50%);
+  border-bottom: 1px solid orange;
+  border-top: none;
+  border-left: 1px solid orange;
+  border-right: 1px solid orange;
+
+  border-bottom-left-radius: 100px;
+  
+  border-bottom-right-radius: 100px;
+
+  background: #fff;
+}
+
+.third-div {
+  width: 10%;
+  height: 0px;
+  top: 0px;
+  position: absolute;
+  left: -20%;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-left: none;
+  border-bottom: none;
+
+  box-shadow: 10px 0px #fff;
+  
+  
+  border-top-right-radius: 10px;  
+  border-top: 1px solid orange;
+  border-right: 1px solid orange;
+  /* overflow: hidden; */
+} 
+
+.fourth-div {
+  width: 10%;
+  height: 0px;
+  top: 0px;
+  position: absolute;
+  right: -20%;
+
+  border-bottom-right-radius: 0;
+  border-top-left-radius: 10px;  
+
+  border-top: 1px solid orange;
+  border-right: none;
+  border-bottom: none;
+  border-left: 1px solid orange;
+
+  box-shadow: -10px 0px #fff;
+  
+  
+  
+  /* overflow: hidden; */
+}
+
+
+/* .third-div {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 50%;
+  top: -1px;
+  transform: translateX(-75%);
+  border-bottom: 1px solid orange;
+  border-left: 1px solid orange;
+  border-right: 1px solid orange;
+ */
+  /* border-bottom-left-radius: 100px; */
+  /* border-top-left-radius: 20px; */
+
+  /* border-bottom-right-radius: 100px; */
+  /* border-top-right-radius: 10px; */
+
+/*   background: #fff;
+} */
